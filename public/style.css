@@ -1,0 +1,51 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  
+}
+
+
+h1 {
+  font-weight: bold;
+  color: pink;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.bold {
+  font-weight: bold;
+  margin: 25px 18% 15px 18%;
+}
+
+.url {
+  color: blue;
+}
+
+p {
+  max-width: 800px;
+  margin: 10px 20% 10px 20%;  
+}
+
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+footer > a {
+  color: #BBBBBB;
+}
+
+.nicejob {
+  text-decoration: line-through;
+}
